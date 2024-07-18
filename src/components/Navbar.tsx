@@ -1,23 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { logo } from "../../public/svg/export";
 import Image from "next/image";
 import LanguageDropdown from "./Languages";
 import { styles } from "@/styles";
+import NavigationList from "./NavigationList";
 
 const Navbar = () => {
   return (
-    <div className="h-[100px] bg-primaryBackgroundColor w-full flex flex-row justify-between items-center lg:px-[50px] px-[25px]">
+    <div className="h-[100px] bg-primaryBackgroundColor w-full flex flex-row justify-between items-center lg:px-[30px] px-[15px]">
       <Image src={logo} alt="Logo" className="w-[7rem] md:w-[12rem]" />
-      <div
-        className={`${styles.navText} flex flex-row gap-x-2 lg:text-[14px] sm:text-[14px] xs:text-[9px] text-[14px] items-center w-[30%]`}
-      >
-        <p>Home</p>
-        <p>About Us </p>
-        <p>Services</p>
-        <p>Partners</p>
-        <p>Contact Us</p>
-      </div>
-      <div className="flex flex-row gap-3  w-[25%]">
+      <NavigationList />
+
+      <div className="flex flex-row gap-3 w-[25%]">
         <LanguageDropdown />
 
         <button className="  bg-white rounded-full ml-5 w-[75%] text-[75%]">
