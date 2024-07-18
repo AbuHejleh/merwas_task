@@ -6,7 +6,7 @@ import {
   linkedin,
   skype,
   twitter,
-} from "../../public/svg/export";
+} from "../../../public/svg/export";
 
 const SocialMedia = () => {
   return (

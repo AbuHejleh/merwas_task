@@ -1,9 +1,7 @@
 import React from "react";
-import { logo } from "../../public/svg/export";
+import { logo } from "../../../public/svg/export";
 import Image from "next/image";
-import LanguageDropdown from "./Languages";
-import NavigationList from "./NavigationList";
-
+import { NavigationList, LanguageDropdown } from "./export";
 const Navbar = () => {
   return (
     <div className="h-[90px] bg-primaryBackgroundColor w-full flex flex-row justify-between items-center lg:px-[30px] px-[15px]">

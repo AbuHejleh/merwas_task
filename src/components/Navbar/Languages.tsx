@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { dropdown, world } from "../../public/svg/export";
+import { world } from "../../../public/svg/export";
 
 type Language =
   | "English"

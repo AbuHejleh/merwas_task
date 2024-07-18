@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { surface } from "../../public/images/exports";
+import { surface } from "../../../public/images/exports";
 
 const HomeImageWithText = () => {
   return (
