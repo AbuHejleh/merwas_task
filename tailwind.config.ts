@@ -8,10 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primaryBackgroundColor: "#3F485E",
+        primaryIconColor: "#949DA6",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      fontFamily: {
+        alef: ["Alef", "sans-serif"],
+        Montserrat: ["Montserrat"],
+      },
+      screens: {
+        xs: "480px", // Example of defining an extra small screen breakpoint
       },
     },
   },
