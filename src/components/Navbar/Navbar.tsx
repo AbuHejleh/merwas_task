@@ -4,7 +4,7 @@ import Image from "next/image";
 import { NavigationList, LanguageDropdown } from "./export";
 const Navbar = () => {
   return (
-    <div className="h-[90px] bg-primaryBackgroundColor w-full flex flex-row justify-between items-center lg:px-[30px] px-[15px]">
+    <div className="h-[90px] bg-primaryColor w-full flex flex-row justify-between items-center lg:px-[30px] px-[15px]">
       <Image src={logo} alt="Logo" className="w-[7rem] md:w-[12rem]" />
       <NavigationList />
 

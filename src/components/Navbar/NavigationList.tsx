@@ -27,7 +27,7 @@ const NavigationList = () => {
           key={item.href}
           href={item.href}
           scroll={true}
-          legacyBehavior // Add this prop to use legacy behavior
+          legacyBehavior
         >
           <a
             className={`${
