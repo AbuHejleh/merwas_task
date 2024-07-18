@@ -4,19 +4,8 @@ import Image from "next/image";
 import React, { useState, useRef } from "react";
 import { playButton } from "../../../public/svg/export";
 
-type VideoCardProps = {
-  videoSrc?: string;
-  alt?: string;
-  headerText?: string;
-  description?: string;
-};
-
-const VideoCard: React.FC<VideoCardProps> = ({
-  videoSrc = "/videos/business.mp4",
-  headerText = "Sample Video Header",
-  description = "This is a description of the video content.",
-  alt = "Video description",
-}) => {
+const VideoCard = () => {
+  const videoSrc = "/videos/business.mp4";
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
@@ -34,8 +23,7 @@ const VideoCard: React.FC<VideoCardProps> = ({
   };
 
   return (
-    <div className="flex  justify-center bg-primaryColor p-4 rounded-lg shadow-lg w-[80vw] h-[40vh]">
-      {/* Video Poster */}
+    <div className="flex flex-row justify-center bg-primaryColor p-4 rounded-lg  w-[85vw] h-[49vh] items-center gap-28 ">
       <div
         onClick={handleVideoClick}
         className="relative cursor-pointer bg-black  rounded-3xl w-auto h-auto "
@@ -54,11 +42,16 @@ const VideoCard: React.FC<VideoCardProps> = ({
         )}
       </div>
 
-      {/* Text Content */}
-      <div className="p-4">
-        <h2 className="text-xl font-semibold mb-2">{headerText}</h2>
-        <p className="text-sm">{description}</p>
-      </div>
+      <p className="text-white font-[400] text-[36px] leading-[46px]">
+        <span className="text-orangeColor ">OurWebsite</span> Your Gateway to{" "}
+        <br />
+        Technological Excellence
+        <br />
+        Get a quick glimpse into the dynamic
+        <br />
+        environment at The OurWebsite and
+        <br /> the benefits that await you
+      </p>
     </div>
   );
 };
