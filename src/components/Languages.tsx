@@ -37,7 +37,11 @@ const LanguageDropdown = () => {
         className="w-22 bg-transparent rounded-md focus:outline-none text-white"
       >
         {languages.map((language) => (
-          <option key={language} value={language} className="text-black">
+          <option
+            key={language}
+            value={language}
+            className="text-black font-alef"
+          >
             {language}
           </option>
         ))}

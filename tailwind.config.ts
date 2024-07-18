@@ -1,3 +1,4 @@
+import { Nobile } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -12,7 +13,7 @@ const config: Config = {
       colors: {
         primaryBackgroundColor: "#3F485E",
         primaryIconColor: "#949DA6",
-        activeColor: "#EB6B2A",
+        orangeColor: "#EB6B2A",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -22,6 +23,7 @@ const config: Config = {
       fontFamily: {
         alef: ["Alef", "sans-serif"],
         Montserrat: ["Montserrat"],
+        nobile: ["Nobile"],
       },
       screens: {
         xs: "480px", // Example of defining an extra small screen breakpoint

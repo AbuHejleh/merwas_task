@@ -1,13 +1,13 @@
+import HomeImageWithText from "@/components/HomeImageWithText";
 import Navbar from "@/components/Navbar";
 import SocialMedia from "@/components/SocialMedia";
 import React from "react";
 
 const Welcome = () => {
   return (
-    <>
-      <SocialMedia />
-      <Navbar />
-    </>
+    <div>
+      <HomeImageWithText />
+    </div>
   );
 };
 

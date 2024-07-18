@@ -5,11 +5,11 @@ import React, { useState } from "react";
 
 const NavigationList = () => {
   const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "About Us", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Partners", href: "#partners" },
-    { name: "Contact Us", href: "#contact" },
+    { name: "HOME", href: "#home" },
+    { name: "ABOUT US", href: "#about" },
+    { name: "SERVICES", href: "#services" },
+    { name: "PARTNERS", href: "#partners" },
+    { name: "CONTACT US", href: "#contact" },
   ];
 
   const [active, setActive] = useState(navItems[0].href);
@@ -20,7 +20,7 @@ const NavigationList = () => {
 
   return (
     <div
-      className={`${styles.navText} flex flex-row gap-x-5 items-center justify-center`}
+      className={`${styles.navText} flex flex-row gap-x-8 items-center justify-center`}
     >
       {navItems.map((item) => (
         <Link
