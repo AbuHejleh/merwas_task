@@ -40,7 +40,7 @@ const CardWithOverlay: React.FC<CardProps> = ({
 
         <div className="flex flex-row gap-3 items-center py-10">
           <p className="text-[18px] font-dm  font-[700] leading-[18px]">
-            Learn more{" "}
+            Learn more
           </p>
           <Image src={rightArrow} alt="Right Arrow" height={20} width={20} />
         </div>

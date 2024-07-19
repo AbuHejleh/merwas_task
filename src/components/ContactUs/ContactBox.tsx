@@ -1,6 +1,7 @@
 import React from "react";
 import ContactDetails from "./ContactDetails";
 import ContactQuestion from "./ContactQuestion";
+import CompanyLocation from "./CompanyLocation";
 
 const ContactBox = () => {
   return (
@@ -12,6 +13,7 @@ const ContactBox = () => {
         <ContactDetails />
         <ContactQuestion />
       </div>
+      <CompanyLocation />
     </div>
   );
 };

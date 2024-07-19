@@ -7,6 +7,7 @@ import ServicesCard from "@/components/Services/ServicesCard";
 import { servicesList } from "@/utils/constants";
 import PartnersCard from "@/components/Partners/PartnersCard";
 import ContactBox from "@/components/ContactUs/ContactBox";
+import Footer from "@/components/Footer/Footer";
 
 const Welcome = () => {
   return (
@@ -57,7 +58,7 @@ const Welcome = () => {
       />
       <ContactBox />
 
-      <div className="h-[90vh] w-[50%]"> hhh</div>
+      <Footer />
     </div>
   );
 };

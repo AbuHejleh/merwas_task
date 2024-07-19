@@ -43,7 +43,7 @@ const VideoCard = () => {
       </div>
 
       <p className="text-white font-[400] text-[36px] leading-[46px]">
-        <span className="text-orangeColor ">OurWebsite</span> Your Gateway to{" "}
+        <span className="text-orangeColor ">OurWebsite</span> Your Gateway to
         <br />
         Technological Excellence
         <br />
