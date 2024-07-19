@@ -5,6 +5,7 @@ import mentoring from "./Mentoring.jpg";
 import opportunities from "./opportunities.jpg";
 import aboutUsImage from "./aboutUs.jpg";
 import { picOne, picTwo, picThree } from "./stack/exports";
+import { partners } from "./partners/export";
 
 export {
   surface,
@@ -16,4 +17,5 @@ export {
   picOne,
   picTwo,
   picThree,
+  partners
 };
