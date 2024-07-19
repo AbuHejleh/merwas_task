@@ -4,6 +4,7 @@ import {
   mentoring,
   opportunities,
 } from "../../public/images/exports";
+import { zoom, lamp, arrowBoard, rocket } from "../../public/svg/export";
 
 const cardsData = [
   {
@@ -34,4 +35,40 @@ const cardsData = [
   },
 ];
 
-export default cardsData;
+const aboutUsList = [
+  {
+    src: rocket,
+    alt: "rocket",
+    header: "Fostering Collaboration",
+    subTitle: `Encouraging synergy among different
+     entities in the technology ecosystem,
+     including startups, freelancers, compaes,
+    academia, and government`,
+  },
+  {
+    src: lamp,
+    alt: "lamp",
+    header: "Promoting Innovation",
+    subTitle: `By providing support and guidance/training,
+      the center aims to cultivate an environment
+      where new ideas and innovative solutions
+      can thrive`,
+  },
+  {
+    src: arrowBoard,
+    alt: "arrowBoard",
+    header: " Mission Statement",
+    subTitle: `A technological revolution in East Amman
+      through fostering innovation, collaboration,
+      education, and community growth`,
+  },
+  {
+    src: zoom,
+    alt: "Zoom",
+    header: "Vision Statement",
+    subTitle: `Establishing a leading technological hub as
+      a catalyst for technological advancement
+      and social development in East Amman`,
+  },
+];
+export { cardsData, aboutUsList };

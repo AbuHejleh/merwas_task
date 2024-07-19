@@ -16,10 +16,16 @@ const Welcome = () => {
       <VideoCard />
       <Sections
         subTitle="With lots of unique blocks, you can easily build a page easily without any coding."
-        title="about us"
+        title="About Us"
         id="about"
       />
       <AboutUs />
+
+      <Sections
+        subTitle="With lots of unique blocks, you can easily build a page easily without any coding."
+        title="Services"
+        id="services"
+      />
 
       <div className="h-[90vh] w-[50%]"> hhh</div>
     </div>

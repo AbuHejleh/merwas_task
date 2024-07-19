@@ -1,7 +1,7 @@
 import React from "react";
 import { CardWithOverlay } from "./export";
 
-import cardsData from "@/utils/constants";
+import { cardsData } from "@/utils/constants";
 
 const ImagesGrid = () => {
   return (
