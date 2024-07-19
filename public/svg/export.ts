@@ -10,6 +10,7 @@ import dropdown from "./dropdown.svg";
 import rightArrow from "./rightArrow.svg";
 import playButton from "./playButton.svg";
 import { zoom, arrowBoard, lamp, rocket } from "./icons/export";
+import { alarm, findUs, follow, phone, writeUs } from "./contact_icons/export";
 
 export {
   facebook,
@@ -26,4 +27,9 @@ export {
   arrowBoard,
   lamp,
   rocket,
+  alarm,
+  findUs,
+  follow,
+  phone,
+  writeUs,
 };

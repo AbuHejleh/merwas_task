@@ -4,7 +4,17 @@ import {
   mentoring,
   opportunities,
 } from "../../public/images/exports";
-import { zoom, lamp, arrowBoard, rocket } from "../../public/svg/export";
+import {
+  zoom,
+  lamp,
+  arrowBoard,
+  rocket,
+  findUs,
+  phone,
+  alarm,
+  writeUs,
+  follow,
+} from "../../public/svg/export";
 
 const cardsData = [
   {
@@ -104,4 +114,42 @@ const servicesList = [
     flip: true,
   },
 ];
-export { cardsData, aboutUsList, servicesList };
+
+const contactUsList = [
+  {
+    src: findUs,
+    alt: "Find Us",
+    header: "Find Us",
+    subTitle: `2301 AMMAN . JORDAN`,
+  },
+  {
+    src: phone,
+    alt: "phone",
+    header: "Phone",
+    subTitle: `+ (06) 111-1111
+    + (06) 111-1111`,
+  },
+  {
+    src: alarm,
+    alt: "Working Hours",
+    header: "Working Hours",
+    subTitle: `Mon-Fri: 8 AM - 5 PM
+    Sat-Sun: 8 AM - 2 PM`,
+  },
+  {
+    src: writeUs,
+    alt: "Write to Us",
+    header: "Write to Us",
+    subTitle: `info@ourwebsite.com
+courses@ourwebsite.com`,
+  },
+  {
+    src: follow,
+    alt: "follow",
+    header: "Follow Us",
+    subTitle: ``,
+    showIcons: true,
+  },
+];
+
+export { cardsData, aboutUsList, servicesList, contactUsList };

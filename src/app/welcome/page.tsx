@@ -6,6 +6,7 @@ import AboutUs from "@/components/AboutUs/AboutUs";
 import ServicesCard from "@/components/Services/ServicesCard";
 import { servicesList } from "@/utils/constants";
 import PartnersCard from "@/components/Partners/PartnersCard";
+import ContactBox from "@/components/ContactUs/ContactBox";
 
 const Welcome = () => {
   return (
@@ -48,6 +49,13 @@ const Welcome = () => {
           <PartnersCard />
         </div>
       </div>
+
+      <Sections
+        subTitle="With lots of unique blocks, you can easily build a page easily without any coding."
+        title="Contact Us"
+        id="contact"
+      />
+      <ContactBox />
 
       <div className="h-[90vh] w-[50%]"> hhh</div>
     </div>

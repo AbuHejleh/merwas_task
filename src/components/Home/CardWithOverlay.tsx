@@ -19,14 +19,12 @@ const CardWithOverlay: React.FC<CardProps> = ({
 }) => {
   return (
     <div className="relative rounded-lg sm:w-auto sm:h-auto">
-      {/* Background Image */}
       <Image
         className="object-cover object-center w-full h-full rounded-xl"
         src={imgSrc}
         alt={alt}
       />
 
-      {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#3F485E] opacity-80 rounded-3xl"></div>
 
       <div className="absolute inset-0 flex flex-col justify-end py-4 text-white px-16">
@@ -40,7 +38,6 @@ const CardWithOverlay: React.FC<CardProps> = ({
           </p>
         </div>
 
-        {/* Additional Text or Buttons */}
         <div className="flex flex-row gap-3 items-center py-10">
           <p className="text-[18px] font-dm  font-[700] leading-[18px]">
             Learn more{" "}

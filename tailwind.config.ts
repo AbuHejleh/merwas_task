@@ -12,9 +12,9 @@ const config: Config = {
       colors: {
         primaryColor: "#3F485E",
         primaryIconColor: "#949DA6",
-        secondaryColor: "77838F",
+        secondaryColor: "#77838F",
         orangeColor: "#EB6B2A",
-        darkBlueColor :"#163C67"
+        darkBlueColor: "#163C67",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -26,6 +26,7 @@ const config: Config = {
         Montserrat: ["Montserrat"],
         nobile: ["Nobile"],
         dm: ["DM_Sans"],
+        jost: ["Jost"],
       },
       screens: {
         xs: "480px", // Example of defining an extra small screen breakpoint
