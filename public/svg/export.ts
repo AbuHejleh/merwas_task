@@ -9,6 +9,7 @@ import world from "./world.svg";
 import dropdown from "./dropdown.svg";
 import rightArrow from "./rightArrow.svg";
 import playButton from "./playButton.svg";
+import { zoom, arrowBoard, lamp, rocket } from "./icons/export";
 
 export {
   facebook,
@@ -21,4 +22,8 @@ export {
   dropdown,
   rightArrow,
   playButton,
+  zoom,
+  arrowBoard,
+  lamp,
+  rocket,
 };

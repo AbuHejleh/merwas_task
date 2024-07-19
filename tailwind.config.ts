@@ -12,6 +12,7 @@ const config: Config = {
       colors: {
         primaryColor: "#3F485E",
         primaryIconColor: "#949DA6",
+        secondaryColor: "77838F",
         orangeColor: "#EB6B2A",
       },
       backgroundImage: {
@@ -23,7 +24,7 @@ const config: Config = {
         alef: ["Alef", "sans-serif"],
         Montserrat: ["Montserrat"],
         nobile: ["Nobile"],
-        dm: ["DM_Sans"]
+        dm: ["DM_Sans"],
       },
       screens: {
         xs: "480px", // Example of defining an extra small screen breakpoint
