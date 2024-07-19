@@ -14,6 +14,7 @@ const config: Config = {
         primaryIconColor: "#949DA6",
         secondaryColor: "77838F",
         orangeColor: "#EB6B2A",
+        darkBlueColor :"#163C67"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

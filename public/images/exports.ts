@@ -4,5 +4,16 @@ import funding from "./Funding.jpg";
 import mentoring from "./Mentoring.jpg";
 import opportunities from "./opportunities.jpg";
 import aboutUsImage from "./aboutUs.jpg";
+import { picOne, picTwo, picThree } from "./stack/exports";
 
-export { surface, coworking, funding, mentoring, opportunities, aboutUsImage };
+export {
+  surface,
+  coworking,
+  funding,
+  mentoring,
+  opportunities,
+  aboutUsImage,
+  picOne,
+  picTwo,
+  picThree,
+};

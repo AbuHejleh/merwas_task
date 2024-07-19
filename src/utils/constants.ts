@@ -71,4 +71,37 @@ const aboutUsList = [
       and social development in East Amman`,
   },
 ];
-export { cardsData, aboutUsList };
+
+const servicesList = [
+  {
+    header: "Coworking Spaces",
+    subTitle:
+      "Increase Your Productivity in Inspirational Workspaces. Our coworking spaces are more than just workplaces - they are hubs for innovation and collaboration. Choose from diverse options, including open workspaces, private offices, and fully-equipped meeting rooms. Immerse yourself in a dynamic environment designed to stimulate creativity and enhance productivity",
+    bgColor: true,
+    roundedSide: "rounded-bl-[6rem] self-end",
+  },
+  {
+    header: "Mentoring and Training",
+    subTitle:
+      "Grow with Expert Guidance. Our mentoring and training programs are your gateway to professional development. Gain insights and guidance from industry experts. Learn how to effectively apply your knowledge, navigate challenges, and expand your technological project",
+    bgColor: false,
+    roundedSide: "rounded-bl-[6rem] self-end",
+    flip: true,
+  },
+  {
+    header: "Coworking Spaces",
+    subTitle:
+      "Increase Your Productivity in Inspirational Workspaces. Our coworking spaces are more than just workplaces - they are hubs for innovation and collaboration. Choose from diverse options, including open workspaces, private offices, and fully-equipped meeting rooms. Immerse yourself in a dynamic environment designed to stimulate creativity and enhance productivity",
+    bgColor: true,
+    roundedSide: "rounded-tr-[6rem] self-start",
+  },
+  {
+    header: "Mentoring and Training",
+    subTitle:
+      "Grow with Expert Guidance. Our mentoring and training programs are your gateway to professional development. Gain insights and guidance from industry experts. Learn how to effectively apply your knowledge, navigate challenges, and expand your technological project",
+    bgColor: false,
+    roundedSide: "rounded-bl-[6rem] self-center",
+    flip: true,
+  },
+];
+export { cardsData, aboutUsList, servicesList };
