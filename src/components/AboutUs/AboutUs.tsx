@@ -10,7 +10,7 @@ const AboutUs = () => {
     <div className="grid grid-cols-2 justify-around w-[85vw] h-full gap-10">
       <div>
         <AboutUsHeader />
-        <div className="grid grid-cols-2 gap-10 py-20">
+        <div className="grid grid-cols-2 lg:gap-10 lg:py-20 pt-10">
           {aboutUsList.map(({ src, alt, header, subTitle }, index) => (
             <IconHeaderSub
               key={index}
@@ -23,8 +23,12 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="w-full h-full">
-        <Image src={aboutUsImage} alt={"about Us Image"} />
+      <div className="w-auto h-auto ">
+        <Image
+          src={aboutUsImage}
+          alt={"about Us Image"}
+          className="w-full h-full bg-contain"
+        />
       </div>
     </div>
   );

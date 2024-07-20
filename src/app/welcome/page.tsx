@@ -15,7 +15,7 @@ const Welcome = () => {
       <div className="flex flex-col items-center">
         <HomeImageWithText />
         <DoubleText />
-        <div className="py-[100px]">
+        <div className="pb-[7rem]">
           <ImagesGrid />
         </div>
 

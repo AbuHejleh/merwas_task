@@ -5,7 +5,7 @@ import { cardsData } from "@/utils/constants";
 
 const ImagesGrid = () => {
   return (
-    <div className="grid grid-cols-2 gap-12 px-[5vw]">
+    <div className="grid grid-cols-2 gap-10 md:gap-8 lg:gap-12 px-[14vw]">
       {cardsData.map(({ alt, headerText, imgSrc, subText }, index) => (
         <CardWithOverlay
           key={index}

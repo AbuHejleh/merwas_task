@@ -18,8 +18,8 @@ const Sections = ({
   return (
     <div
       id={id}
-      className={`flex flex-col gap-14`}
-      style={{ padding: padding ? `${padding}rem` : `10rem` }}
+      className={`flex flex-col gap-14 py-[5rem] md:[7rem] lg:[10rem]`}
+      style={{ padding: padding ? `${padding}rem` : `` }}
     >
       <p
         className={`${

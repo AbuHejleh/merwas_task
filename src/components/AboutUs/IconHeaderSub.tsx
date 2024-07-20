@@ -18,13 +18,13 @@ const IconHeaderSub = ({
       <Image
         alt={alt}
         src={src}
-        className=" sm:w-[40px] sm:h-[40px] w-[20px] h-[20px]"
+        className="w-[18px] h-[18px] lg:w-[40px] lg:h-[40px]  "
       />
       <div className="flex flex-col gap-y-5">
-        <p className="text-primary font-nobile text-[1.3vw] font-[400]">
+        <p className="text-primary font-nobile text-[12px] md:text-[14px] lg:text-[24px] font-[400]">
           {header}
         </p>
-        <p className="text-primary font-nobile text-[0.89vw] font-[400] text-wrap ">
+        <p className="text-primary font-nobile text-[8px] md:text-[12px] lg:text-[18px] font-[400] text-wrap ">
           {subTitle}
         </p>
       </div>
