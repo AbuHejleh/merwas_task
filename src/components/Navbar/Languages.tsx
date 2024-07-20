@@ -28,13 +28,13 @@ const LanguageDropdown = () => {
   };
 
   return (
-    <div className="flex flex-row gap-2 w-full">
-      <Image src={world} alt="World Image" height={16} width={16} />
+    <div className="flex flex-row gap-2 items-center justify-center">
+      <Image src={world} alt="World Image" className="h-2 md:h-3 lg:h-5" />
       <select
         value={selectedLanguage}
         onChange={handleChange}
         color="text-black"
-        className="w-22 bg-transparent rounded-md focus:outline-none text-white"
+        className="bg-transparent rounded-md focus:outline-none text-white"
       >
         {languages.map((language) => (
           <option

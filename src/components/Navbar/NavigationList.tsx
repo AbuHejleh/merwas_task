@@ -20,19 +20,14 @@ const NavigationList = () => {
 
   return (
     <div
-      className={`${styles.navText} flex flex-row gap-x-8 items-center justify-center`}
+      className={`${styles.navText} flex flex-row lg:gap-x-8 md:gap-x-4 gap-x-2  items-center justify-center `}
     >
       {navItems.map((item) => (
-        <Link
-          key={item.href}
-          href={item.href}
-          scroll={true}
-          legacyBehavior
-        >
+        <Link key={item.href} href={item.href} scroll={true} legacyBehavior>
           <a
             className={`${
               active === item.href ? styles.active : styles.navText
-            } cursor-pointer`}
+            } cursor-pointer text-[8px] md:text-[12px] lg:text-[14px]`}
             onClick={() => handleSetActive(item.href)}
           >
             {item.name}
