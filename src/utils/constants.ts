@@ -2,7 +2,7 @@ import {
   coworking,
   funding,
   mentoring,
-  opportunities,
+  groupImage,
 } from "../../public/images/exports";
 import {
   zoom,
@@ -37,7 +37,7 @@ const cardsData = [
     subText: "Unlock Financing Opportunities and Expand Your Impact",
   },
   {
-    imgSrc: opportunities,
+    imgSrc: groupImage,
     alt: "Networking Opportunities",
     headerText: "Networking Opportunities",
     subText:
