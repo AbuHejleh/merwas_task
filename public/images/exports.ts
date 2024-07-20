@@ -2,7 +2,7 @@ import surface from "./surface.jpg";
 import coworking from "./Coworking.jpg";
 import funding from "./Funding.jpg";
 import mentoring from "./Mentoring.jpg";
-import opportunities from "./opportunities.jpg";
+import opportunities from "./Opportunities.jpg";
 import aboutUsImage from "./aboutUs.jpg";
 import { picOne, picTwo, picThree } from "./stack/exports";
 import { partners } from "./partners/export";
@@ -17,5 +17,5 @@ export {
   picOne,
   picTwo,
   picThree,
-  partners
+  partners,
 };
