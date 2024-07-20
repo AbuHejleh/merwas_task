@@ -23,26 +23,30 @@ const VideoCard = () => {
   };
 
   return (
-    <div className="flex flex-row justify-center bg-primaryColor p-4 rounded-lg  w-[85vw] h-[49vh] items-center gap-28 ">
+    <div className="flex flex-row justify-evenly bg-primaryColor rounded-3xl  items-center gap-x-10 w-3/5 py-9">
       <div
         onClick={handleVideoClick}
-        className="relative cursor-pointer bg-black  rounded-3xl w-auto h-auto "
+        className="relative cursor-pointer w-4/12  h-[100%]"
       >
         <video
           ref={videoRef}
           src={videoSrc}
-          className="relative inset-0 object-cover rounded-3xl w-full h-full "
+          className="relative inset-0 object-cover rounded-xl w-full"
           controls={false}
         ></video>
 
         {!isPlaying && (
-          <div className="absolute inset-0 flex items-center justify-center w-auto h-auto  rounded-3xl">
-            <Image src={playButton} alt="Play Button" />
+          <div className="absolute inset-0 flex items-center justify-center h-full w-auto rounded-xl">
+            <Image
+              src={playButton}
+              alt="Play Button"
+              className="w-1/6 md:w-1/4 lg:w-auto"
+            />
           </div>
         )}
       </div>
 
-      <p className="text-white font-[400] text-[36px] leading-[46px]">
+      <p className="text-white text-[12px] md:text-[14px] lg:text-[24px] font-[400] lg:leading-[30px]">
         <span className="text-orangeColor ">OurWebsite</span> Your Gateway to
         <br />
         Technological Excellence

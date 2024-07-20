@@ -5,7 +5,10 @@ import { surface } from "../../../public/images/exports";
 const HomeImageWithText = () => {
   return (
     <div className="relative ">
-      <p className="text-white absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 z-10 font-nobile text-[40px] font-[700] text-start leading-[76px]">
+      <p
+        className="text-white absolute top-1/2 left-1/4 z-10 font-nobile text-[12px] md:text-[20px] lg:text-[40px] font-[700] text-start
+       leading-[20px] md:leading-[40px] lg:leading-[76px]"
+      >
         Welcome To The<span className="text-orangeColor"> OurWebsite </span>
         Your <br />
         Platform For Launching Towards

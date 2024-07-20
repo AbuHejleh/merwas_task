@@ -18,9 +18,8 @@ const Sections = ({
   return (
     <div
       id={id}
-      className={`flex flex-col items-center py-[${
-        padding ? padding : 10
-      }rem] gap-14`}
+      className={`flex flex-col gap-14`}
+      style={{ padding: padding ? `${padding}rem` : `10rem` }}
     >
       <p
         className={`${
@@ -29,7 +28,7 @@ const Sections = ({
             : isWhite
             ? "text-white"
             : "text-primaryColor"
-        } font-nobile text-[48px] leading-[54.12px] font-[700] text-center`}
+        } font-nobile text-[18px] md:text-[24px] lg:text-[32px]  lg:leading-[54.12px] font-[700] text-center`}
       >
         {title}
       </p>
@@ -40,7 +39,7 @@ const Sections = ({
             : isWhite
             ? "text-white"
             : "text-secondaryColor"
-        } font-Montserrat font-[400] text-[19px] text-center leading-[30px]`}
+        } font-Montserrat font-[400] text-[12px] md:text-[14px] lg:text-[19px] text-center lg:leading-[30px]`}
       >
         {subTitle}
       </p>

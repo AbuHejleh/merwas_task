@@ -18,7 +18,7 @@ const CardWithOverlay: React.FC<CardProps> = ({
   alt,
 }) => {
   return (
-    <div className="relative rounded-lg sm:w-auto sm:h-auto">
+    <div className="relative rounded-lg text-[5px] md:text-[13px] lg:text-[28px]">
       <Image
         className="object-cover object-center w-full h-full rounded-xl"
         src={imgSrc}
@@ -27,22 +27,19 @@ const CardWithOverlay: React.FC<CardProps> = ({
 
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#3F485E] opacity-80 rounded-3xl"></div>
 
-      <div className="absolute inset-0 flex flex-col justify-end py-4 text-white px-16">
-        <div className="mb-4">
-          <h2 className="text-white text-[28px] font-[500] font-nobile leading-[38px]">
-            {headerText}
-          </h2>
-
-          <p className="text-white text-[18px] font-[400] leading-[30px] font-dm">
-            {subText}
-          </p>
+      <div className="absolute inset-0 flex flex-col justify-end pb-4 md:pb-6 lg:pb-10  text-white px-6 md:px-12 lg:px-16 gap-2 md:gap-8 lg:gap-12">
+        <div className="flex flex-col gap-2">
+          <h2 className="text-white font-[500] font-nobile ">{headerText}</h2>
+          <p className="text-white  font-[400]font-dm">{subText}</p>
         </div>
 
-        <div className="flex flex-row gap-3 items-center py-10">
-          <p className="text-[18px] font-dm  font-[700] leading-[18px]">
-            Learn more
-          </p>
-          <Image src={rightArrow} alt="Right Arrow" height={20} width={20} />
+        <div className="flex flex-row gap-3 items-center">
+          <p className="font-dm">Learn more</p>
+          <Image
+            src={rightArrow}
+            alt="Right Arrow"
+            className="h-3 md:h-4 lg:h-6"
+          />
         </div>
       </div>
     </div>
