@@ -15,7 +15,7 @@ const CopyrightWithLanguage = () => {
   };
 
   return (
-    <div className="bg-primaryColor text-white py-[41px] px-8 flex justify-between items-center w-1/2 border-t-[1px] border-white boarder-opacity-15">
+    <div className="bg-primaryColor text-white py-8 flex justify-between items-center w-1/2 border-t-[1px] border-white boarder-opacity-15">
       <div className="text-sm">
         Copyright © 2024 OurWebsite. All Right Reserved.
       </div>

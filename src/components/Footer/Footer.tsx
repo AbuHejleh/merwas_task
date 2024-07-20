@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center py-10">
+      <div className="flex justify-center items-center pt-10">
         <CopyrightWithLanguage />
       </div>
     </div>

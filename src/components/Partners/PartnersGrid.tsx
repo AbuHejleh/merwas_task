@@ -3,7 +3,7 @@ import PartnersCard from "./PartnersCard";
 
 const PartnersGrid = () => {
   return (
-    <div className="grid grid-cols-3 px-[20rem] pb-[8rem] gap-10 w-full h-full">
+    <div className="grid grid-cols-3 gap-28 mx-auto pb-32">
       <PartnersCard />
       <PartnersCard />
       <PartnersCard />

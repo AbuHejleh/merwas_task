@@ -4,14 +4,12 @@ import Image from "next/image";
 
 const PartnersCard = () => {
   return (
-    <div className=" flex flex-col items-center bg-white rounded-3xl justify-center ">
+    <div className=" flex flex-col items-center bg-white rounded-3xl justify-center w-full">
       <div className="flex flex-col items-center py-20">
         <Image
           src={partners}
           alt="Just a partner pic"
-          className="border-b-[1px] border-black border-opacity-30"
-          height={150}
-          width={150}
+          className="border-b-[1px] border-black border-opacity-30 h-auto w-[5rem] md:w-[9rem] lg:w-[15rem] "
         />
         <p className="p-4">Agreement between xyz and our website</p>
       </div>
