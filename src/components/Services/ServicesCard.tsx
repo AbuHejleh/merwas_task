@@ -17,11 +17,11 @@ const ServicesCard = ({
 }) => {
   return (
     <div
-      className={`w-[95vw] ${
+      className={`w-11/12 ${
         bgColor ? "bg-primaryColor" : "bg-white"
-      } ${roundedSide}  h-[59vh]`}
+      } ${roundedSide}  h-[65vh]`}
     >
-      <div className="flex flex-row w-full h-full justify-center items-center">
+      <div className="flex flex-row w-full h-full items-center gap-10">
         {flip ? (
           <>
             <ServicesHeader

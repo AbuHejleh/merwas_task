@@ -5,7 +5,7 @@ import Sections from "@/components/Sections";
 import AboutUs from "@/components/AboutUs/AboutUs";
 import ServicesCard from "@/components/Services/ServicesCard";
 import { servicesList } from "@/utils/constants";
-import PartnersCard from "@/components/Partners/PartnersCard";
+import PartnersGrid from "@/components/Partners/PartnersGrid";
 import ContactBox from "@/components/ContactUs/ContactBox";
 import Footer from "@/components/Footer/Footer";
 
@@ -44,11 +44,7 @@ const Welcome = () => {
           id="partners"
           isColored={true}
         />
-        <div className="grid grid-cols-3 px-[20rem] pb-[8rem] gap-10">
-          <PartnersCard />
-          <PartnersCard />
-          <PartnersCard />
-        </div>
+        <PartnersGrid />
       </div>
 
       <Sections
